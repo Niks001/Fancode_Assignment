@@ -21,7 +21,6 @@ public class FancodeTest {
                         getTasksStatusForEachUsers(todos, fancodeCityUsers));
         System.out.println(result);
         Assert.assertEquals(result.size(),3);
-
     }
 
     @Test
@@ -29,7 +28,6 @@ public class FancodeTest {
         List<Integer> fancodeCityUsers = usersService.getFancodeCityUserIDs(usersService.getAllUsers());
         System.out.println(fancodeCityUsers);
         Assert.assertEquals(fancodeCityUsers.size(),3);
-
     }
 
 }
